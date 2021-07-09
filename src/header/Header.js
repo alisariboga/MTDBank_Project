@@ -49,7 +49,7 @@ const useStyles = makeStyles((theme) => ({
     },
 
 }));
-const Header = () => {
+function Header() {
     const classes = useStyles();
     return (
         <div className={classes.root}>
